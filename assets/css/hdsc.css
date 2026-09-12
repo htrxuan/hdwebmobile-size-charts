@@ -1,0 +1,29 @@
+.hdsc-chart {
+	margin: 1em 0;
+}
+
+.hdsc-chart summary {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.hdsc-chart__table {
+	margin-top: .75em;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 480px;
+}
+
+.hdsc-chart__table th,
+.hdsc-chart__table td {
+	border: 1px solid #ddd;
+	padding: .4em .6em;
+	text-align: left;
+}
+
+.hdsc-chart__table caption {
+	caption-side: top;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: .4em;
+}

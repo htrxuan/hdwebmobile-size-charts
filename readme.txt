@@ -16,8 +16,8 @@ Add size charts to product categories, with a per-product override. No image upl
 
 HDWebmobile Size Charts lets you build size-guide tables (Size / Bust / Waist / Hips, or whatever columns you choose) and assign each one to one or more product categories. A "Size chart" disclosure appears automatically on matching product pages. Any individual product can override its category's chart from its own Product data panel.
 
-= Why this plugin exists =
-"Product Size Charts for WooCommerce" (versions up to and including 2.4.5) shipped CVE-2025-23991 (CWE-862 Missing Authorization): the chart-configuration write path had no capability check, letting it be changed by users who should never have been able to touch store-wide content.
+= Security by design =
+A common weakness in size-chart tools is a chart-configuration write path with no capability check (CWE-862, Missing Authorization), letting it be changed by users who should never be able to touch store-wide content.
 
 This plugin closes that by construction:
 

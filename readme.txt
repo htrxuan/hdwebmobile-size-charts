@@ -37,6 +37,9 @@ This plugin closes that by construction:
 * One chart per product (the most specific match: product override, then category)
 * No per-variation charts (e.g. a different chart for a specific colour/size variation)
 
+= Enjoying this plugin? =
+If it helps your site, please consider [leaving an honest review on WordPress.org](https://wordpress.org/support/plugin/hdwebmobile-size-charts/reviews/#new-post) -- it helps other WordPress users find it. Found a problem or have an idea? Please [open a support topic](https://wordpress.org/support/plugin/hdwebmobile-size-charts/) first so it can be fixed.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/hdwebmobile-size-charts` directory, or install the plugin through the WordPress plugins screen directly.
